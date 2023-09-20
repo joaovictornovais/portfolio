@@ -5,10 +5,10 @@ import { projects } from "../db/GithubProjects";
 
 const Home = () => {
   let aboutMe =
-    "My name is João Victor and I am a 20-year-old software engineer passionate about solve real life problems with code. In my free time, I enjoy playing Valorant and working on personal project. I am excited to share my skills and experience with others in the field.";
+    "My name is João Victor and I am a 20-year-old software engineer. In my free time, I enjoy playing Valorant and working on personal project. I am excited to share my skills and experience with others in the field.";
 
   let myProjects =
-    "I'm passionate about compilers, type theory, the Minecraft protocol, and Hindley Milner! These topics perfectly blend my love for programming and problem-solving. Compilers transform code into machine code, while Hindley Milner adds elegance and safety to the process. Tinkering with the Minecraft protocol to optimize and customize gameplay is a joy. I love pushing the boundaries of programming and seeking new challenges!";
+    "I'm a dedicated Java backend developer with a passion for tackling real-life problems with code. I find immense satisfaction in using Java to create solutions that address the everyday challenges faced by people. Turning complex issues into elegant, functional software is my calling, and I love every minute of it. ";
 
   return (
     <main className="flex flex-col sm:flex-row gap-8 p-6">
