@@ -9,3 +9,7 @@
 .header-item {
     @apply hover:text-[#7B2CBF] cursor-pointer hover:scale-110 transition-all duration-200;
 }
+
+.container {
+    @apply max-w-7xl mx-auto h-screen;
+}
