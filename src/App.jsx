@@ -1,11 +1,8 @@
-import Home from "./pages/Home";
-
 function App() {
+
   return (
-    <div className="max-w-5xl mx-auto">
-      <Home />
-    </div>
-  );
+    <h1>Hello, world!</h1>
+  )
 }
 
-export default App;
+export default App
