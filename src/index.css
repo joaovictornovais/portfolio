@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    @apply font-['Roboto']
+}
+
+.header-item {
+    @apply hover:text-[#7B2CBF] cursor-pointer hover:scale-110 transition-all duration-200;
+}
